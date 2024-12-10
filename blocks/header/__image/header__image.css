@@ -1,0 +1,13 @@
+@media (width < 1024px) {
+  .header__image {
+    width: 124px;
+    height: auto;
+  }
+}
+
+@media (width < 768px) {
+  .header__image {
+    width: 104px;
+    height: auto;
+  }
+}

@@ -1,0 +1,19 @@
+.user {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  padding-block: 40px 50px;
+}
+
+@media (width < 1024px) {
+  .user {
+    column-gap: 15px;
+  }
+}
+
+@media (width < 767px) {
+  .user {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

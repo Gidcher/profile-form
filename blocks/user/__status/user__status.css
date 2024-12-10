@@ -1,0 +1,12 @@
+.user__status {
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+@media (width < 768px) {
+  .user__status {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+  }
+}

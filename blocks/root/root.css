@@ -1,0 +1,28 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #545454;
+
+  --font-main: "Inter", sans-serif;
+
+  --container-padding-x: 200px;
+  --container-width: 880px;
+
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-main);
+}
+
+@media (width < 1024px) {
+  :root {
+    --container-padding-x: 90px;
+  }
+}
+
+
+@media (width < 768px) {
+  :root {
+    --container-padding-x: 20px;
+  }
+}
+

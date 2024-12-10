@@ -1,0 +1,9 @@
+.user__image {
+  border-radius: 50%;
+}
+
+@media (width < 768px) {
+  .user__image {
+    margin-bottom: 26px;
+  }
+}

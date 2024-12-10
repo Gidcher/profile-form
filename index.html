@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile form</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body>
+  
+  <header class="header container">
+    <img 
+      src="./images/logo.svg" 
+      alt="Mesto Russia" 
+      class="header__image"
+      width="142"
+      height="33"
+      loading="lazy"
+    >
+    <hr class="header__underline">
+  </header>
+
+  <main class="main container">
+    <section class="user">
+      <img 
+        src="./images/avatar.jpg" 
+        alt="Your avatar" 
+        class="user__image"
+        width="120"
+        height="120"
+        loading="lazy"
+      >
+      <div>
+        <h2 class="user__name">
+          <span class="user__name_value">Жак-Ив Кусто</span>
+          <buttton type="button" class="user__edit" onclick="popUp.showModal()"></buttton>
+        </h2>
+        <p class="user__status">Исследователь океана</p>
+      </div>
+      <button class="user__button"></button>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <img 
+          src="./images/karachaevsk.jpg" 
+          alt="Храм" 
+          class="card__image"
+          width="282"
+          height="282"
+          loading="lazy"
+        >
+        <footer class="card__footer">
+          <h3 class="card__title">Карачевск</h3>
+          <button class="card__like"></button>
+        </footer>
+      </article>
+
+      <article class="card">
+        <img 
+          src="./images/elbrus.png" 
+          alt="Гора с закатом" 
+          class="card__image"
+          width="282"
+          height="282"
+          loading="lazy"
+        >
+        <footer class="card__footer">
+          <h3 class="card__title">Гора Эльбрус</h3>
+          <button class="card__like"></button>
+        </footer>
+      </article>
+
+      <article class="card">
+        <img 
+          src="./images/dombai.png" 
+          alt="Гора и лес" 
+          class="card__image"
+          width="282"
+          height="282"
+          loading="lazy"
+        >
+        <footer class="card__footer">
+          <h3 class="card__title">Домбай</h3>
+          <button class="card__like"></button>
+        </footer>
+      </article>
+
+      <article class="card">
+        <img 
+          src="./images/elbrus.png" 
+          alt="Гора с закатом" 
+          class="card__image"
+          width="282"
+          height="282"
+          loading="lazy"
+        >
+        <footer class="card__footer">
+          <h3 class="card__title">Гора Эльбрус</h3>
+          <button class="card__like"></button>
+        </footer>
+      </article>
+
+      <article class="card">
+        <img 
+          src="./images/dombai.png" 
+          alt="Гора и лес" 
+          class="card__image"
+          width="282"
+          height="282"
+          loading="lazy"
+        >
+        <footer class="card__footer">
+          <h3 class="card__title">Домбай</h3>
+          <button class="card__like"></button>
+        </footer>
+      </article>
+
+      <article class="card">
+        <img 
+          src="./images/karachaevsk.jpg" 
+          alt="Храм" 
+          class="card__image"
+          width="282"
+          height="282"
+          loading="lazy"
+        >
+        <footer class="card__footer">
+          <h3 class="card__title">Карачевск</h3>
+          <button class="card__like"></button>
+        </footer>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    &copy; 2024 Mesto Russia
+  </footer>
+
+  <dialog  id="popUp" class="pop-up">
+    <form method="dialog" class="pop-up__form_close">
+      <button type="submit" class="pop-up__close"></button>
+    </form>
+    <form  class="pop-up__form">
+      <h3 class="pop-up__title">
+        Редактировать профиль
+      </h3>
+      <input 
+        type="text" 
+        class="pop-up__button pop-up__name"
+      >
+      <input 
+        type="text" 
+        class="pop-up__button pop-up__status"
+      >
+      <button type="submit" class="pop-up__submit">
+        Сохранить
+      </button>
+    </form>
+  </dialog>
+  <script src="./script.js"></script>
+</body>
+</html>
