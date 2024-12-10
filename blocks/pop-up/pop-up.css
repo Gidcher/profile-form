@@ -3,57 +3,21 @@
   background-color: transparent;
   padding: 3rem;
 }
-.pop-up__form_close {
-  display: flex;
-  justify-content: end;
+
+
+@media (width < 768px) {
+  .pop-up {
+    padding: 2rem 0;
+  }
 }
 
-.pop-up__close {
-  border: none;
-  width: 32px;
-  aspect-ratio: 1;
-  background: url("./../../images/close.png");
-  margin-bottom: 8px;
-  margin-right: -40px;
-}
 
-.pop-up__form {
-  background-color: var(--color-white);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-radius: 10px;
-  width: 430px;
-  height: 330px;
-  padding: 35px;
-}
 
-.pop-up__title {
-  font-weight: 900;
-  font-size: 1.5rem;
-  text-shadow: 0.5px 0, -0.5px 0;
-}
 
-.pop-up__button {
-  border: none;
-  border-bottom: 1px solid #000;
-  /*opacity: .2;*/
-}
 
-.pop-up__button::placeholder {
-  font-weight: 400;
-  font-size: 0.875rem;
-}
 
-.pop-up__submit {
-  width: 358px;
-  height: 50px;
-  border: none;
-  color: var(--color-white);
-  background-color: var(--color-black);
-  font-weight: 400;
-  font-size: 1.125rem;
-  text-align: center;
-}
+
+
+
 
 

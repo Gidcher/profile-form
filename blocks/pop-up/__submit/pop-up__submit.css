@@ -1,0 +1,19 @@
+.pop-up__submit {
+  width: 358px;
+  height: 50px;
+  border: none;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  font-weight: 400;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+
+@media (width < 768px) {
+  .pop-up__submit {
+    width: 238px;
+    height: 46px;
+    font-size: 0.875rem;
+  }
+}
